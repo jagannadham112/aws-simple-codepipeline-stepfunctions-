@@ -1,0 +1,11 @@
+{
+    "environmentName": "prod",
+    "stackName": "sample-lambda-app",
+    "templatePath": "lambda-template.yaml",
+    "revisionS3Bucket": "cpsf-codepipeline-artifacts-123456789012-us-east-2",
+    "revisionS3Key": "CodePipelineStepFunc/SourceOutp/XDgIsez",
+    "doesStackExists": true,
+    "changeSetName": "prod-sample-lambda-app-change-set-3675",
+    "changeSetCreationStatus": "complete",
+    "changeSetAction": "CAN-SAFELY-UPDATE-EXISTING-STACK"
+}

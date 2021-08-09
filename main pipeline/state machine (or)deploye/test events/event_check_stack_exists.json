@@ -1,0 +1,7 @@
+{
+    "environmentName": "prod",
+    "stackName": "sample-lambda-app",
+    "templatePath": "lambda-template.yaml",
+    "revisionS3Bucket": "cpsf-codepipeline-artifacts-123456789012-us-east-2",
+    "revisionS3Key": "CodePipelineStepFunc/SourceOutp/vEXNkmh"
+}

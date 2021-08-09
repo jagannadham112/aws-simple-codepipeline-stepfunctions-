@@ -1,0 +1,15 @@
+{
+    "environmentName": "prod",
+    "stackName": "sample-lambda-app",
+    "templatePath": "lambda-template.yaml",
+    "revisionS3Bucket": "cpsf-codepipeline-artifacts-123456789012-us-east-2",
+    "revisionS3Key": "CodePipelineStepFunc/SourceOutp/vEXNkmh",
+    "doesStackExists": false,
+    "stackCreationDetails": {
+        "ResponseMetadata": {
+            "RequestId": "cdb80467-b364-11e7-be20-9926b7c89970"
+        },
+        "StackId": "arn:aws:cloudformation:us-east-2:123456789012:stack/prod-sample-lambda-app/cdbf7e70-b364-11e7-9e92-503f2fe38cae"
+    },
+    "stackCreationStatus": "in_progress"
+}
