@@ -1,0 +1,2 @@
+# aws-simple-codepipeline-stepfunctions-
+This project shows you how to integrate AWS CodePipeline and AWS Step Functions state machines. The integration enables developers to build much simpler CodePipeline actions that perform a single task and to delegate the complexity of dealing with workflow-driven behavior associated with that task to a proper state machine engine. As such, developers will be able to build more intuitive pipelines and still being able to visualize and troubleshoot their pipeline actions in detail by examining the state machine execution logs.
