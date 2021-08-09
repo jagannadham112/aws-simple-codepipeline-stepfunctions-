@@ -1,0 +1,28 @@
+{
+    "CodePipeline.job": {
+        "id": "dcf38b42-6d6c-4fca-9cd6-179db00193ef",
+        "accountId": "123456789012",
+        "data": {
+            "actionConfiguration": {
+                "configuration": {
+                    "FunctionName": "StateMachineTriggerLambda",
+                    "UserParameters": "{\"s3Bucket\": \"cpsf-state-machine-input-123456789012-us-east-2\", \"stateMachineFile\": \"state_machine_input.json\"}"
+                }
+            },
+            "inputArtifacts": [
+                {
+                    "location": {
+                        "s3Location": {
+                            "bucketName": "cpsf-codepipeline-artifacts-123456789012-us-east-2",
+                            "objectKey": "CodePipelineStepFunc/SourceOutp/s3Nlu2W"
+                        },
+                        "type": "S3"
+                    },
+                    "revision": "b4776db2dca12b4cefb32aceb2fd23abba9eaec6",
+                    "name": "SourceOutput"
+                }
+            ],
+            "outputArtifacts": []
+        }
+    }
+}
